@@ -1,0 +1,9 @@
+a = 3.5
+b = -0.7
+i = 2
+x = 0.8
+y = (10^4)*(sin(i))^2 - ((0.32*(x^3) +4*x + b)/(cos(i*a)))*((0.32*(x^3)-b)^(1/6)) + abs(b)
+mas = [a b i x y]
+sorted1 = sort(mas, 'descend')
+sorted2 = [sorted1(1) sorted1(3) sorted1(4)]
+sorted3 = mean(sorted2)
